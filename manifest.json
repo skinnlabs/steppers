@@ -1,0 +1,27 @@
+{
+  "background_color": "#000000",
+  "description": "May The Birds Be With You",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "SOUTHERN BLOCK STEPPERS",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "STEPPERS",
+  "start_url": "/login",
+  "theme_color": "#000000",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "https://assets.website-files.com/615acc292d65fc588fa354d0/615aeeb63f457734eddb5540_favicon.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "https://assets.website-files.com/615acc292d65fc588fa354d0/615aeeb9701ae766885374b9_webclip.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ],
+  "shortcuts": []
+}
