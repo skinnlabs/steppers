@@ -1,27 +1,41 @@
 {
   "background_color": "#000000",
-  "description": "May The Birds Be With You",
+  "description": "A multidisciplinary imprint founded by Southside Mohammed &amp; the homies.",
   "dir": "ltr",
   "display": "standalone",
-  "name": "SOUTHERN BLOCK STEPPERS",
+  "name": "SOUTHERN BLOCK STEPPERS®",
   "orientation": "portrait",
   "scope": "/",
   "short_name": "STEPPERS®",
   "start_url": "/login",
   "theme_color": "#000000",
-  "categories": [],
+  "categories": [
+    "entertainment",
+    "lifestyle",
+    "music",
+    "shopping"
+  ],
   "screenshots": [],
   "icons": [
-    {
+     {
       "src": "https://steppers.world/sbs-icon.PNG",
       "type": "image/png",
-      "sizes": "32x32"
+      "sizes": "256x256",
+      "purpose": "any"
     },
-    {
+   {
       "src": "https://steppers.world/sbs-icon.PNG",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "maskable"
     }
   ],
-  "shortcuts": []
+  "shortcuts": [],
+  "lang": "en",
+  "display_override": [
+    "standalone",
+    "window-controls-overlay",
+    "browser"
+  ],
+  "prefer_related_applications": false
 }
