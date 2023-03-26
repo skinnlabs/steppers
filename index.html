@@ -28,6 +28,8 @@
   "https://steppers.world/sbs-icon.PNG"
   rel="apple-touch-icon">
 
+<link rel="manifest" href="manifest.json">
+
 <style>
 .w-webflow-badge {
 display:none!important;
@@ -37,6 +39,14 @@ visibility:hidden!important;
 
 </head>
 <body>
+
+<script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('pwabuilder-sw.js')
+  }
+</script>
+
+
   <div class="noise"></div>
   <div data-w-id="8094142a-e24a-b7ed-1bf5-fa15ea50d200" class=
   "loading-animation">
